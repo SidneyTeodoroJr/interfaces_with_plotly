@@ -1,2 +1,5 @@
 # interfaces_with_dash
- Here you will see a data visualization interface with Dash. dash gives data scientists the ability to showcase their results in interactive web applications.   In an afternoon, you can build and deploy a Dash app to share with others.
+ 
+In this example, a pie chart was created to represent dummy data on a dashboard. First, lists of labels and values were created to represent the data. Then, the "Pie" object from the Plotly library was used to create the graph, passing the lists as parameters. Next, a title was defined for the chart with a "Layout" object and a figure was created with the "Figure" function, passing the "data" and "layout" objects as parameters.
+
+Finally, the graph was rendered into an HTML file using the "plot" function from the "offline" Plotly library and a file called "dashboard_pizza.html" was created in the current directory.
